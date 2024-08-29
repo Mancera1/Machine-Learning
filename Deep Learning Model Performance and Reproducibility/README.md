@@ -37,7 +37,7 @@ This project investigates the reproducibility and performance of various deep le
 - **D-Index**: Low variability, indicating high reproducibility.
 
 **Image Example**:
-![DNN No Preprocessing MNIST](Deep Learning Model Performance and Reproducibility/images/DNN_MNIST.png)
+![DNN No Preprocessing MNIST](Machine-Learning/Deep Learning Model Performance and Reproducibility/images/DNN_MNIST.png)
 
 This model displayed excellent performance with minimal variation across runs, highlighting the robustness of DNN on the MNIST dataset without any preprocessing.
 
@@ -49,7 +49,7 @@ This model displayed excellent performance with minimal variation across runs, h
 - **D-Index**: Extremely high, suggesting that PCA greatly enhanced the model's ability to generalize across this complex dataset.
 
 **Image Example**:
-![CNN with PCA on Kolod](Deep Learning Model Performance and Reproducibility/images/CNN_PCA_Kolod.png)
+![CNN with PCA on Kolod](Machine-Learning/Deep Learning Model Performance and Reproducibility/images/CNN_PCA_Kolod.png)
 
 The PCA preprocessing step proved beneficial, particularly for the Kolod dataset, where the model achieved near-perfect accuracy in multiple runs.
 
@@ -61,7 +61,7 @@ The PCA preprocessing step proved beneficial, particularly for the Kolod dataset
 - **D-Index**: High variability, reflecting the sensitivity of GRU to complex datasets like EMODB.
 
 **Image Example**:
-![GRU with PCA+TSNE on EMODB](Deep Learning Model Performance and Reproducibility/images/GRU_PCA_TSNE_EMODB.png)
+![GRU with PCA+TSNE on EMODB](Machine-Learning/Deep Learning Model Performance and Reproducibility/images/GRU_PCA_TSNE_EMODB.png)
 
 The PCA+TSNE combination showed high accuracy for complex datasets but with increased variability, highlighting a trade-off between accuracy and reproducibility.
 
@@ -73,7 +73,7 @@ The PCA+TSNE combination showed high accuracy for complex datasets but with incr
 - **D-Index**: Consistently high at 2.0, indicating perfect reproducibility in most runs.
 
 **Image Example**:
-![7-Layer DNN with PCA+TSNE on Kolod](Deep Learning Model Performance and Reproducibility/images/DNN_7_Layer_PCA_TSNE_Kolod.png)
+![7-Layer DNN with PCA+TSNE on Kolod](Machine-Learning/Deep Learning Model Performance and Reproducibility/images/DNN_7_Layer_PCA_TSNE_Kolod.png)
 
 The 7-layer architecture provided a significant boost in performance, especially with PCA+TSNE preprocessing on the Kolod dataset. This architecture consistently achieved near-perfect accuracy across all runs, with minimal variability, making it a robust choice for complex datasets.
 
